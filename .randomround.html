@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8" />
+<title>My example</title>
+
+</head>
+<body>
+
+<p id="msg"></p>
+<p>Because <code>Math.random()</code> returns a floating-point number, we can multiply it, then use <code>Math.floor()</code> to return the largest integer less than or equal to the random number. This provides a more uniform distribution than using <code>Math.round()</code>.</p>
+
+<script>
+  document.getElementById("msg").innerHTML = Math.floor(Math.random( 1, 100 ) * 100);
+</script>
+
+</body>
+
+</html>
